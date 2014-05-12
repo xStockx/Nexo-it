@@ -21,7 +21,9 @@ header
 			list-style none
 			li
 				display inline-block
-				margin-left 10px
+			li:hover
+				opacity 0.4
+				cursor pointer
 	#secciones
 		margin 35px 0 0 350px
 		font-size 16px
@@ -68,26 +70,52 @@ section
 		#ejecucionProyectos
 			background #fafafa
 	#pieTitulares
+		color #E2EEF3
 		margin-top 40px
 		background azul
 		height 300px
 		width 100%
 		#sociales
-			background #333
+			margin-right 30px
 			height 300px
 			width 100px
 			div
 				margin 20px 0 0 20px 
 				img
 					height 40px
+			div:hover
+				opacity 0.5
+				cursor pointer
+				transition 0.5s
+				-webkit-transform rotate(20deg)
+			    -moz-transform rotate(20deg)
+			    -o-transform rotate(20deg)
+			    -ms-transform rotate(20deg)
+			     transform rotate(20deg)
+
 		.cajaPieTit
-			background #ddd
-			width 200px
-			height 200px
+			width 280px
+			height 280px
 			display inline-block
 			vertical-align middle
+		#cajaPieTit3
+			margin-left 50px
 footer
+	background azul
+	border-top 2px solid #E2EEF3
+	color #E2EEF3
 	height 50px
+	width 80%
+	position absolute
+	text-align right
+	p 
+		margin 0px 10px 2px 0
+
+	img 
+		float left
+		height 48px
+		
+
 			
 
 
