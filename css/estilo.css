@@ -22,7 +22,7 @@ section #titulares #ejecucionProyectos{background:#f6f6f6}
 section #titulares .lineaPuenteada{color:#5d8cac}
 section #pieTitulares{color:#e2eef3;margin-top:40px;background:#1e90bd;height:300px;width:100%;}
 section #pieTitulares #sociales{margin-right:30px;height:300px;width:100px;}
-section #pieTitulares #sociales div{margin:20px 0 0 20px;transition:.5s;}
+section #pieTitulares #sociales div{margin:20px 0 30px 9px;transition:.5s;}
 section #pieTitulares #sociales div img{height:40px}
 section #pieTitulares #sociales div:hover{opacity:.5;cursor:pointer;transition:.5s}
 section #pieTitulares .cajaPieTit{width:280px;height:280px;display:inline-block;vertical-align:middle}
