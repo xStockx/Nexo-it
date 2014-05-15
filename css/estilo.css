@@ -143,3 +143,31 @@ footer img {
   float: left;
   height: 48px;
 }
+.propModal {
+  color: #fff;
+  background: #1e90bd;
+  padding: 40px;
+}
+.contacto {
+  padding: 20px;
+  width: 400px;
+  height: 450px;
+}
+.contacto #cuadAdorno {
+  color: #fa0;
+  font-size: 28px;
+  margin-right: 3px;
+}
+.contacto input {
+  border-radius: 0;
+}
+.contacto textarea {
+  border-radius: 0;
+}
+.contacto form {
+  padding-left: 1em;
+}
+.contacto input[type="submit"] {
+  border-radius: 3px;
+  float: right;
+}
