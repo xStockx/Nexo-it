@@ -147,6 +147,7 @@ footer img {
   color: #fff;
   background: #1e90bd;
   padding: 40px;
+  border-radius: 3px;
 }
 .contacto {
   padding: 20px;
@@ -170,4 +171,22 @@ footer img {
 .contacto input[type="submit"] {
   border-radius: 3px;
   float: right;
+}
+.cerrar {
+  cursor: pointer;
+  float: right;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.cerrar:hover {
+  color: #fa0;
+}
+.cerrarFormulario {
+  cursor: pointer;
+  font-size: 12px;
+  padding-top: 80px;
+  text-align: right;
+}
+.cerrarFormulario:hover {
+  color: #fa0;
 }

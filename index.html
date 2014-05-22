@@ -19,7 +19,7 @@
 		<nav id="botones">
 			<ul>
 				<li><a href="#" data-toggle="modal" onclick="muestraModal()"><img src="img/btHome.png" alt=""></a></li>
-				<li><a href="#" data-toggle="modal" onclick="muestraModal()"><img src="img/btTrabaje.png" alt=""></a></li>
+				<li><a href="#" data-toggle="modal" onclick="muestraModal('trabajeConNosotros')"><img src="img/btTrabaje.png" alt=""></a></li>
 				<li><a href="#" data-toggle="modal" onclick="muestraModal('contactoModal')"><img src="img/btMail.png" alt=""></a></li>
 			</ul>
 		</nav>
@@ -214,7 +214,7 @@
 					 
 					<p>Es por ello que dentro de nuestra línea de gestión interna, generar un ambiente de trabajo que promueva la mejora continua en la búsqueda de ése diferencial, constituye parte estratégica de dicha gestión.</p>
 
-
+					<div class="cerrar">cerrar[x]</div>
 				    </div>
 				  </div>
 				</div>
@@ -232,7 +232,7 @@
 					<p>Nos hemos especializado en la integración de un world class como SAP,  entre sus diversas aplicaciones en el ambito técnico y hacia otros sitemas internos y/o externos a nuestros clientes a traves de su plataforma de tecnología integrada SAP Netweaver  y  su  middleware SAP-PI.</p>
 
 					<p>Realizamos el mejor diseño de procesos posible para cada desafío y una eficiente distribución de cargas,  obteniendo la máxima optimización para los diferentes volúmenes de datos que se procesan.</p>
-
+					<div class="cerrar">cerrar[x]</div>
 				    </div>
 				  </div>
 				</div>
@@ -247,7 +247,7 @@
 					<p>La planificación, el establecimiento de los controles  adecuados, realización de tareas a través de las prácticas y estándares reconocidos en la industria informática,  están incorporados a nuestra forrma de trabajo y son parte de nuestra "cultura organizacional".</p>
 
 					<p>La gestión del proyecto, la búsqueda de acuerdos para salvar obstáculos que comprometan los objetivos a cumplir,  la real comprensión de las necesidades del cliente, son los caminos que nos permiten alcanzar el éxito en éste tipo de emprendimiento.</p>
-
+					<div class="cerrar">cerrar[x]</div>
 				    </div>
 				  </div>
 				</div>
@@ -267,17 +267,51 @@
 						    <input type="text" class="form-control" id="nombre" placeholder="Juan Peréz">
 						</div>
 						<div class="form-group">
-						    <label for="mensaje">Su E-mail</label>
+						    <label for="mensaje">Mensaje</label>
 						    <textarea id="mensaje" class="form-control" rows="3"></textarea>
 						</div>
-						<input type="submit" value="Enviar" class="btn btn-default">
+						<div class="form-group">
+							<input type="submit" value="Enviar" class="btn btn-default">
+						</div>
+						<div class="cerrarFormulario">cerrar[x]</div>
+						
 					</form>
-
-
+					
 				    </div>
 				  </div>
 				</div>
 
+<!-- Trabaje con nosotros -->
+					<div id="trabajeConNosotros" class="modal fade bs-example-modal-sm " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content propModal contacto" style="height: 530px">
+				  <h3><span id="cuadAdorno">·</span>Contacto</h3>
+					<form action="#">
+						<div class="form-group">
+						    <label for="email">Su E-mail</label>
+						    <input type="email" class="form-control" id="email" placeholder="correo@dominio.cl">
+						</div>
+						<div class="form-group">
+						    <label for="nombre">Su Nombre</label>
+						    <input type="text" class="form-control" id="nombre" placeholder="Juan Peréz">
+						</div>
+						<div class="form-group">
+						    <label for="mensaje">Mensaje</label>
+						    <textarea id="mensaje" class="form-control" rows="3"></textarea>
+						</div>
+						<div class="form-group">
+						    <label for="cv">Cargar Archivo</label>
+						    <input type="file" class="form-control" id="cv">
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Enviar" class="btn btn-default">
+						</div>
+						<div class="cerrarFormulario">cerrar[x]</div>
+					</form>
+						
+				    </div>
+				  </div>
+				</div>
 
 
 
@@ -287,6 +321,14 @@
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script src="js/plugins.js"></script>
     <script>
+    		$(document).ready(function(){
+    			$('.cerrar').on('click',function(){
+    				$('.modal').modal('hide');
+    			});
+    			$('.cerrarFormulario').on('click',function(){
+    				$('.modal').modal('hide');
+    			});
+    		});
     		 $('#ei-slider').eislideshow({
                     easing      : 'easeOutExpo',
                     titleeasing : 'easeOutExpo',
