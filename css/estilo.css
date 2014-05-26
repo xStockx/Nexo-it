@@ -47,6 +47,10 @@ header #secciones ul li:hover {
   padding-bottom: 10px;
   border-bottom: 15px solid #ffa95c;
 }
+header #secciones ul a {
+  color: #fff;
+  text-decoration: none;
+}
 section {
   padding-top: 86px;
 }
@@ -126,6 +130,45 @@ section #pieTitulares #cajaPieTit3 {
 }
 section #pieTitulares #cajaPieTit3 img {
   vertical-align: top;
+}
+section #servicios {
+  Margen: 0px;
+  Background: #fff;
+  -webkit-box-shadow: 0px 3px 4px -2px #384042;
+  -moz-box-shadow: 0px 3px 4px -2px #384042;
+  box-shadow: 0px 3px 4px -2px #384042;
+  padding-bottom: 20px;
+}
+section #servicios h3 {
+  Color: #5d8cac;
+  font-size: 30pt;
+  Margin-left: 45px;
+  Margin-top: 40px;
+}
+section #servicios .textosServicios p {
+  color: #666;
+  margin-left: 45px;
+  font-size: 12px;
+}
+section #servicios .textosServicios .subtitulos {
+  color: #5d8cac;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-left: 45px;
+}
+section #clientes {
+  text-align: center;
+}
+section #clientes p {
+  Color: #c7c7c7;
+  font-size: 14px;
+  Margin-left: 14px;
+  Margin-top: 10px;
+  Margin-bottom: 5px;
+  text-align: left;
+}
+section #clientes img {
+  margin: 5px 14px 5px 14px;
 }
 footer {
   background: #1e90bd;
