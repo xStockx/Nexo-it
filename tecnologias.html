@@ -18,7 +18,7 @@
 		</figure>
 		<nav id="botones">
 			<ul>
-				<li><a href="#" data-toggle="modal" onclick="muestraModal()"><img src="img/btHome.png" alt=""></a></li>
+				<li><a href="index.html"><img src="img/btHome.png" alt=""></a></li>
 				<li><a href="#" data-toggle="modal" onclick="muestraModal('trabajeConNosotros')"><img src="img/btTrabaje.png" alt=""></a></li>
 				<li><a href="#" data-toggle="modal" onclick="muestraModal('contactoModal')"><img src="img/btMail.png" alt=""></a></li>
 			</ul>
@@ -100,44 +100,61 @@
                     </ul><!-- ei-slider-thumbs -->
                 </div><!-- ei-slider -->
 		</article>
-		<article id="presentacion">
-			<p>Somos una empresa con amplia experiencia en distintas plazas de latinoamérica que trabaja con la tecnología informática.</p>
-			<p>Dentro de éste ámbito hemos desarrollado e implementado soluciones de diverso tipo.</p>
-			<p>Desde el año 2007 estamos establecidos en Chile.</p>
+		<article class="textosArticle">
+			<h3>Productos</h3>
+			<!-- KBS-->
+			<div class="textosServicios">
+				<p class="subtitulos">- Herramientas KBS:  </p>
+				<p>Especialistas en GeneXus desde hace décadas, activa participación en encuentros y foros de la comunidad.</p>
+			</div>
+			<!--- Arquitectura-->
+			<div class="textosServicios">
+				<p class="subtitulos"> - Arquitecturas: </p>
+				<p>Múltiples capas, basadas en Web, Cliente/Servidor, Arquitecturas orientadas a Servicios (SOA).
+				AS-400, Unix (Linux, Ubuntu), Windows Servers y Windows Mobile.</p>
+				<p>
+					 IBM-DB2, Oracle, MS SQL Server, MySQL, Sybase.
+				</p>
+				<p>
+					WebSphere, Web Logic Servers, Apache Tomcat, MS IIS.
+				</p>
+			</div>
+			<!--Internet-->
+			<div class="textosServicios">
+				<p class="subtitulos"> - Internet: </p>
+				<p>JAVA, JEE, ASP .net, PHP, HTML 5  (IE, Chrome, Firefox)</p>
+			</div>
+			<!--Programacion-->
+			<div class="textosServicios">
+				<p class="subtitulos">- Lenguajes de Programación:  </p>
+				<p> .net (VB, C#), Java,  SAP ABAP.</p>
+			</div>
+			<!-- Integracion -->
+			<div class="textosServicios">
+				<p class="subtitulos">-Integración de Sistemas y BI: </p>
+				<p>SAP Netweaver  y  su  middleware SAP-PI,  Integration Services de Microsoft (SSIS).</p>
+			</div>
+			<!-- Tools-->
+			<div class="textosServicios">
+				<p class="subtitulos">-Otras herramientas: </p>
+				<p>Workflow, Reporting y Data Warehousing</p>
+			</div>
 		</article>
-		<article id="titulares">
-			<div id="capitalHumano" class="cajaTit">
-				<h1> Capital humano </h1>
-				<p>Consideramos que las personas que trabajan con
-					nosotros son las que proveen el valor diferencial.
-					Técnicos, Funcionales, Analistas, Ingenieros y los
-					distintos roles que llevan a cabo nuestros
-					fundamental para la calidad de nuestros servicios
-				</p>	
-				<p class="lineaPuenteada">--------------------------------------------------- <a href="#" data-toggle="modal" onclick="muestraModal('capitalHumanoModal')">[+]</a></p>
+		<article id="clientes">
+		<p>De nuestra cartera de clientes, mencionamos</p>
+			<div id="primeraLineaCliente">
+				<img src="img/clientes/parques-de-chile.jpg" alt="">
+				<img src="img/clientes/mobilink.jpg" alt="">
+				<img src="img/clientes/amicar.jpg" alt="">
+				<img src="img/clientes/LosHeroes.jpg" alt="">
 			</div>
-			<div id="ejecucionProyectos" class="cajaTit">
-				<h1> Ejecución de proyectos </h1>
-				<p> Definición de objetivos y entregables junto con
-					el cumplimiento de fechas y compromisos,
-					constituyen los elementos escenciales que
-					priorizamos para éste tipo de actividad.
-					La planificación, el establecimiento de los
-				</p>	
-				<br>
-				<p class="lineaPuenteada">--------------------------------------------------- <a a href="#" data-toggle="modal" onclick="muestraModal('ejecucionProyectosModal')">[+]</a></p>
-			</div>
-			<div id="integracionSistemas" class="cajaTit">
-				<h1> Integración de sistemas </h1>
-				<p>En toda instalación de mediano ó gran porte,
-					predomina la diversidad de aplicaciones (Legacy,
-					Word Class, "home-made") junto con la diversidad
-					de entornos tecnológicos (AS/400, MS-Sql, Oracle,
-					NetWeaver, Linux, por nombrar algunos).
-				</p>	
-				<p class="lineaPuenteada">--------------------------------------------------- <a href="#" data-toggle="modal" onclick="muestraModal('integracionSistemaModal')">[+]</a></p>
+			<div id="segundaLineaCliente">
+				<img src="img/clientes/Banco-ripley.jpg" alt="">
+				<img src="img/clientes/institutoNacionalDeNormalizacion.jpg" alt="">
+				<img src="img/clientes/euroamerica.jpg" alt="">
 			</div>
 		</article>
+		
 		<article id="pieTitulares">
 			<div id="sociales" class="cajaPieTit">
 				<div><img src="img/btFacebook.png" alt=""></div>
@@ -197,60 +214,12 @@
 			<figure>
 				<a href="https://www.google.cl/maps/place/Mons+F%C3%A9lix+Cabrera+14/@-33.4241682,-70.6127899,17z/data=!4m2!3m1!1s0x9662cf6432e4edb1:0x27bfd5d75de2e30c" target="_blank"><img src="img/btMapa.png" alt=""></a>
 				<img src="img/trianguloPie.png" alt="">
+				<img src="img/trianguloPie.png" alt="">
 				<p>© Dirección Nexo-IT Consultores: Mons. Félix Cabrera 14 Of. 21 - Providencia - Santiago de Chile - Chile</p>
 				<p>Teléfono +56 24217223 - E-mail: info@nexo-it.cl</p>
 			</figure>	
 		</footer>
 				
-<!--Todos los modals-->
-
-				<div id="capitalHumanoModal" class="modal fade bs-example-modal-lg " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content propModal">
-				     <h3>Capital humano </h3>
-					<p>Consideramos que las personas que trabajan con nosotros son las que  proveen el valor diferencial.</p>
-
-					<p>Técnicos, Funcionales, Analistas, Ingenieros y los distintos roles que llevan a cabo nuestros consultores,  aportan un valor agregado fundamental para la calidad de nuestros servicios. </p>
-					 
-					<p>Es por ello que dentro de nuestra línea de gestión interna, generar un ambiente de trabajo que promueva la mejora continua en la búsqueda de ése diferencial, constituye parte estratégica de dicha gestión.</p>
-
-					<div class="cerrar">cerrar[x]</div>
-				    </div>
-				  </div>
-				</div>
-
-<!-- Integracion de sistemas -->
-
-				<div id="integracionSistemaModal" class="modal fade bs-example-modal-lg " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content propModal">
-				    <h3>Integración de sistemas</h3>
-					<p>En toda instalación de mediano ó gran porte,  predomina la diversidad de aplicaciones (Legacy,  Word Class, "home-made") junto con la diversidad de entornos tecnológicos (AS/400, MS-Sql, Oracle, NetWeaver, Linux, por nombrar algunos)</p>
-
-					<p>Para alcanzar el éxito en los desafios que enfrentan nuestros clientes debemos lograr y garantizar un adecuado funcionamiento de sus aplicaciones y su interrelacion, buscando a traves de una Arquitectura Orientada a Servicios (SOA),  la unicidad y veracidad del dato que es compartido y utilizado entre ellos.</p>  
-
-					<p>Nos hemos especializado en la integración de un world class como SAP,  entre sus diversas aplicaciones en el ambito técnico y hacia otros sitemas internos y/o externos a nuestros clientes a traves de su plataforma de tecnología integrada SAP Netweaver  y  su  middleware SAP-PI.</p>
-
-					<p>Realizamos el mejor diseño de procesos posible para cada desafío y una eficiente distribución de cargas,  obteniendo la máxima optimización para los diferentes volúmenes de datos que se procesan.</p>
-					<div class="cerrar">cerrar[x]</div>
-				    </div>
-				  </div>
-				</div>
-
-<!-- Ejecucion de proyectos -->
-				<div id="ejecucionProyectosModal"class="modal fade bs-example-modal-lg " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content propModal">
-				   <h3>Ejecución de proyectos</h3>
-					<p>Definición de objetivos y entregables  junto con el cumplimiento de fechas y compromisos,  constituyen los elementos escenciales que priorizamos para éste tipo de actividad.</p>
-
-					<p>La planificación, el establecimiento de los controles  adecuados, realización de tareas a través de las prácticas y estándares reconocidos en la industria informática,  están incorporados a nuestra forrma de trabajo y son parte de nuestra "cultura organizacional".</p>
-
-					<p>La gestión del proyecto, la búsqueda de acuerdos para salvar obstáculos que comprometan los objetivos a cumplir,  la real comprensión de las necesidades del cliente, son los caminos que nos permiten alcanzar el éxito en éste tipo de emprendimiento.</p>
-					<div class="cerrar">cerrar[x]</div>
-				    </div>
-				  </div>
-				</div>
 <!-- Contacto-->
 	
 				<div id="contactoModal"class="modal fade bs-example-modal-sm " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">

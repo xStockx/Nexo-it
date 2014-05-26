@@ -67,9 +67,9 @@ section #presentacion {
 }
 section #titulares {
   text-align: center;
-  -webkit-box-shadow: 0px -3px 4px -3px rgba(56,64,66,1);
-  -moz-box-shadow: 0px -3px 4px -3px rgba(56,64,66,1);
-  box-shadow: 0px -3px 4px -3px rgba(56,64,66,1);
+  -moz-box-shadow: 0px -3px 4px -3px #384042;
+  -webkit-box-shadow: 0px -3px 4px -3px #384042;
+  box-shadow: 0px -3px 4px -3px #384042;
 }
 section #titulares .cajaTit {
   color: #666;
@@ -101,13 +101,13 @@ section #titulares .lineaPuenteada {
 }
 section #pieTitulares {
   color: #e2eef3;
+  -moz-box-shadow: inset 0px 3px 4px -2px #384042;
+  -webkit-box-shadow: inset 0px 3px 4px -2px #384042;
+  box-shadow: inset 0px 3px 4px -2px #384042;
   margin-top: 20px;
   background: #1e90bd;
   height: 300px;
   width: 100%;
-  -webkit-box-shadow: inset 0px 3px 4px -2px rgba(56,64,66,1);
-  -moz-box-shadow: inset 0px 3px 4px -2px rgba(56,64,66,1);
-  box-shadow: inset 0px 3px 4px -2px rgba(56,64,66,1);
 }
 section #pieTitulares #sociales {
   margin-right: 60px;
@@ -138,26 +138,26 @@ section #pieTitulares #cajaPieTit3 {
 section #pieTitulares #cajaPieTit3 img {
   vertical-align: top;
 }
-section #servicios {
-  Margen: 0px;
+section .textosArticle {
+  padding-right: 20px;
   Background: #fff;
   -webkit-box-shadow: 0px 3px 4px -2px #384042;
   -moz-box-shadow: 0px 3px 4px -2px #384042;
   box-shadow: 0px 3px 4px -2px #384042;
   padding-bottom: 20px;
 }
-section #servicios h3 {
+section .textosArticle h3 {
   Color: #5d8cac;
   font-size: 30pt;
   Margin-left: 45px;
   Margin-top: 40px;
 }
-section #servicios .textosServicios p {
+section .textosArticle .textosServicios p {
   color: #666;
   margin-left: 45px;
   font-size: 12px;
 }
-section #servicios .textosServicios .subtitulos {
+section .textosArticle .textosServicios .subtitulos {
   color: #5d8cac;
   font-size: 14px;
   margin-top: 50px;
