@@ -1,13 +1,13 @@
 body {
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 6%;
+  padding-left: 6%;
   font-family: 'Open Sans';
 }
 header {
   background: #1e90bd;
   color: #fff;
   position: absolute;
-  width: 80%;
+  width: 88%;
   height: 85px;
 }
 header figure {
@@ -182,7 +182,7 @@ footer {
   border-top: 2px solid #e2eef3;
   color: #e2eef3;
   height: 50px;
-  width: 80%;
+  width: 88%;
   position: absolute;
   text-align: right;
 }
@@ -196,11 +196,34 @@ footer img {
 .propModal {
   color: #fff;
   background: #1e90bd;
-  padding: 40px;
+  padding: 0px 0px 0px 40px;
+  position: absolute;
   border-radius: 3px;
 }
+.propModal h3 {
+  margin-top: 40px;
+}
+.propModal p {
+  margin-right: 40px;
+}
+.propModal .botones-modal {
+  margin-top: 0px;
+  margin-right: 10px;
+  float: right;
+}
+.propModal .botones-modal ul {
+  list-style: none;
+}
+.propModal .botones-modal ul li {
+  display: inline-block;
+}
+.propModal .botones-modal ul li:hover {
+  opacity: 0.4;
+  cursor: pointer;
+  transition: 0.3s;
+}
 .contacto {
-  padding: 20px;
+  padding: 0px 0px 0px 20px;
   width: 400px;
   height: 450px;
 }
@@ -217,16 +240,22 @@ footer img {
 }
 .contacto form {
   padding-left: 1em;
+  margin-right: 20px;
 }
 .contacto input[type="submit"] {
   border-radius: 3px;
   float: right;
 }
+.contacto h3 {
+  margin-top: 20px;
+}
 .cerrar {
   cursor: pointer;
   float: right;
   font-size: 12px;
+  margin-right: 20px;
   padding-top: 10px;
+  padding-bottom: 5px;
 }
 .cerrar:hover {
   color: #fa0;

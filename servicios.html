@@ -227,6 +227,13 @@
 				<div id="contactoModal"class="modal fade bs-example-modal-sm " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-sm">
     <div class="modal-content propModal contacto">
+    			<nav class="botones-modal">
+						<ul>
+							<li><a href="https://www.google.cl/maps/place/Mons+F%C3%A9lix+Cabrera+14/@-33.4241682,-70.6127899,17z/data=!4m2!3m1!1s0x9662cf6432e4edb1:0x27bfd5d75de2e30c" target="_blank" ><img src="img/btMap.png" alt=""></a></li>
+							<li><a href="#" data-toggle="modal" onclick="muestraModal('trabajeConNosotros')"><img src="img/btTrabaje.png" alt=""></a></li>
+							<li><a href="#" data-toggle="modal" onclick="muestraModal('contactoModal')"><img src="img/btMail.png" alt=""></a></li>
+						</ul>
+					</nav>
 				  <h3><span id="cuadAdorno">·</span>Contacto</h3>
 					<form action="#">
 						<div class="form-group">
@@ -256,6 +263,13 @@
 					<div id="trabajeConNosotros" class="modal fade bs-example-modal-sm " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-sm">
     <div class="modal-content propModal contacto" style="height: 530px">
+    			<nav class="botones-modal">
+						<ul>
+							<li><a href="https://www.google.cl/maps/place/Mons+F%C3%A9lix+Cabrera+14/@-33.4241682,-70.6127899,17z/data=!4m2!3m1!1s0x9662cf6432e4edb1:0x27bfd5d75de2e30c" target="_blank" ><img src="img/btMap.png" alt=""></a></li>
+							<li><a href="#" data-toggle="modal" onclick="muestraModal('trabajeConNosotros')"><img src="img/btTrabaje.png" alt=""></a></li>
+							<li><a href="#" data-toggle="modal" onclick="muestraModal('contactoModal')"><img src="img/btMail.png" alt=""></a></li>
+						</ul>
+					</nav>
 				  <h3><span id="cuadAdorno">·</span>Contacto</h3>
 					<form action="#">
 						<div class="form-group">
@@ -310,6 +324,7 @@
     		 function muestraModal(valorEnviado)
     		 {
     		 	//var modalSeleccionado = "'#"+valorEnviado+"'";
+    		 	$('.modal').modal('hide');
     		 	$('#'+valorEnviado).modal('show');
     		 }
           
