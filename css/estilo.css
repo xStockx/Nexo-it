@@ -132,8 +132,11 @@ section #pieTitulares .cajaPieTit {
   display: inline-block;
   vertical-align: middle;
 }
+section #pieTitulares #cajaPieTit2 {
+  padding-left: 35px;
+}
 section #pieTitulares #cajaPieTit3 {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 section #pieTitulares #cajaPieTit3 img {
   vertical-align: top;
