@@ -1,13 +1,15 @@
 body {
-  padding-right: 6%;
-  padding-left: 6%;
   font-family: 'Open Sans';
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
 }
 header {
   background: #1e90bd;
   color: #fff;
   position: absolute;
-  width: 88%;
+  width: 1024px;
   height: 85px;
 }
 header figure {
@@ -52,6 +54,7 @@ header #secciones ul a {
   text-decoration: none;
 }
 section {
+  width: 1024px;
   padding-top: 86px;
 }
 section #slider h2 {
@@ -110,7 +113,7 @@ section #pieTitulares {
   width: 100%;
 }
 section #pieTitulares #sociales {
-  margin-right: 60px;
+  margin-right: 40px;
   height: 300px;
   width: 64px;
 }
@@ -133,7 +136,7 @@ section #pieTitulares .cajaPieTit {
   vertical-align: middle;
 }
 section #pieTitulares #cajaPieTit2 {
-  padding-left: 35px;
+  padding-left: 0px;
 }
 section #pieTitulares #cajaPieTit3 {
   padding-left: 30px;
@@ -185,7 +188,7 @@ footer {
   border-top: 2px solid #e2eef3;
   color: #e2eef3;
   height: 50px;
-  width: 88%;
+  width: 1024px;
   position: absolute;
   text-align: right;
 }
