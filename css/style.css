@@ -38,7 +38,8 @@
 }
 .ei-title{
 	position: absolute;
-	right: 50%;
+	right: 45%;
+	margin-left: 20px;
 	margin-right: 13%;
 	top: 30%;
 }
