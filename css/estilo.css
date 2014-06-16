@@ -162,9 +162,9 @@ section .textosArticle {
 }
 section .textosArticle h3 {
   Color: #5d8cac;
-  font-size: 30pt;
+  font-size: 23pt;
   Margin-left: 45px;
-  Margin-top: 40px;
+  Margin-top: 50px;
 }
 section .textosArticle .textosServicios p {
   color: #666;
@@ -174,7 +174,7 @@ section .textosArticle .textosServicios p {
 section .textosArticle .textosServicios .subtitulos {
   color: #5d8cac;
   font-size: 14px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 45px;
 }
 section #clientes {
