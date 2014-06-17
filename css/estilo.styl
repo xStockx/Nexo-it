@@ -10,12 +10,14 @@ body
 	padding 0px
 header
 	background #47a4c9
-	background -moz-linear-gradient(top,  #47a4c9 28%, #1e90bd 100%) /* FF3.6+ */
-	background -webkit-gradient(linear, left top, left bottom, color-stop(28%,#47a4c9), color-stop(100%,#1e90bd)) /* Chrome,Safari4+ */	
-	background -webkit-linear-gradient(top,  #47a4c9 28%,#1e90bd 100%) /* Chrome10+,Safari5.1+ */
-	background -o-linear-gradient(top,  #47a4c9 28%,#1e90bd 100%) /* Opera 11.10+ */
-	background -ms-linear-gradient(top,  #47a4c9 28%,#1e90bd 100%) /* IE10+ */
-	background linear-gradient(to bottom,  #47a4c9 28%,#1e90bd 100%) /* W3C */
+	background -moz-linear-gradient(top,  #47a4c9 28%, #1e90bd 100%)
+	background -webkit-gradient(linear, left top, left bottom, color-stop(28%,#47a4c9), color-stop(100%,#1e90bd))
+	background -webkit-linear-gradient(top,  #47a4c9 28%,#1e90bd 100%) 
+	background -o-linear-gradient(top,  #47a4c9 28%,#1e90bd 100%) 
+	background -ms-linear-gradient(top,  #47a4c9 28%,#1e90bd 100%) 
+	background linear-gradient(bottom,  #47a4c9 28%,#1e90bd 100%)
+	border-top #EAF1FA 1px solid
+	border-bottom #002B5E 1px solid
 	color blanco
 	position absolute
 	width 1024px
@@ -132,9 +134,9 @@ section
 		padding-bottom 20px
 		h3
 			Color #5D8CAC
-			font-size 30pt
+			font-size 23pt
 			Margin-left 45px
-			Margin-top 40px
+			Margin-top 50px
 		.textosServicios
 			p 
 				color #666
@@ -143,7 +145,7 @@ section
 			.subtitulos
 				color #5D8CAC
 				font-size 14px
-				margin-top 50px
+				margin-top 30px
 				margin-left 45px
 	#clientes
 		text-align center
@@ -156,6 +158,10 @@ section
 			text-align left
 		img
 			margin 5px 14px 5px 14px
+			opacity 0.3
+		img:hover
+			transition 0.3s
+			opacity 1
 footer
 	background azul
 	border-top 2px solid #E2EEF3
