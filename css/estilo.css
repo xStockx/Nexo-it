@@ -72,6 +72,9 @@ section #slider h3 {
   font-size: 24px;
   color: #2d4d6a;
 }
+section #flechaAnimada {
+  margin-top: 3px;
+}
 section #presentacion {
   padding: 45px 0 0 70px;
   color: #666;
